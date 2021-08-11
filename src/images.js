@@ -54,6 +54,11 @@ const images = [
       thumbnail: 'https://i.imgur.com/vEidYYL.png',
       title: 'Virtual Pictionary',
     },
+    {
+      original: 'https://i.imgur.com/rTVTixK.png',
+      thumbnail: 'https://i.imgur.com/rTVTixK.png',
+      title: 'Terrarium',
+    },
 ];
 
 export default images;
