@@ -29,6 +29,31 @@ const images = [
       thumbnail: 'https://i.imgur.com/QafeleM.png',
       title: 'Studio Flow',
     },
+    {
+      original: 'https://i.imgur.com/xs2uBUi.gif',
+      thumbnail: 'https://i.imgur.com/xs2uBUi.gif',
+      title: 'Gartic Phone',
+    },
+    {
+      original: 'https://i.imgur.com/m5ZTQUM.png',
+      thumbnail: 'https://i.imgur.com/m5ZTQUM.png',
+      title: 'Chocolate Tasting',
+    },
+    {
+      original: 'https://i.imgur.com/iXn68tS.jpg',
+      thumbnail: 'https://i.imgur.com/iXn68tS.jpg',
+      title: 'SE Interns',
+    },
+    {
+      original: 'https://i.imgur.com/HYF3KYa.png',
+      thumbnail: 'https://i.imgur.com/HYF3KYa.png',
+      title: 'Virtual Taboo',
+    },
+    {
+      original: 'https://i.imgur.com/vEidYYL.png',
+      thumbnail: 'https://i.imgur.com/vEidYYL.png',
+      title: 'Virtual Pictionary',
+    },
 ];
 
 export default images;
