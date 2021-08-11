@@ -11,8 +11,6 @@ import images from './images'
 import { Chrono } from 'react-chrono';
 import events from './events'
 
-
-
 function App() {
   // React Hook useState for Carousel
   // const [title,setTitle] = useState("Default");
@@ -22,29 +20,28 @@ function App() {
       {/* Logo and title as website header */}
       <Title/>      
       <body className="App-header">
-        {/* Carousel title to display each image's title */}
-        <h3>Carousel Item Title</h3>
-        {/* The carousel itself */}
-        <ImageGallery
-          items={images}
-        />
-        <h1> </h1>
-        {/* A timeline that shows different dates and the accompanying
-            descriptions of the projects/activities performed. */}
         <div style={{ width: "1000px"}}>
+          {/* A timeline that shows different dates and the accompanying
+            descriptions of the projects/activities performed. */}
           <Chrono 
             items={events} 
             mode="HORIZONTAL"
-            cardHeight="500px" 
             cardWidth="1000px" 
-            useReadMore="true"
+            useReadMore="false"
             theme={{
               primary: "red",
               secondary: "orange",
               cardBgColor: "gray"
             }} 
           />
+          {/* Carousel title to display each image's title */}
+          <h3>Carousel Item Title</h3>
+          {/* The carousel itself */}
+          <ImageGallery
+            items={images}
+          />
         </div>
+        {/* STILL NEED TO ADD A FOOTER!!! */}
       </body>
     </div>
   );
