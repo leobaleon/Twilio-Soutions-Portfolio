@@ -15,7 +15,7 @@ function Title() {
         </div>
         <div class="column">
             {/* Website title */}
-            <h2>Leonardo Baleon - Solutions Portfolio</h2>
+            <h2>Leo Baleon - Solutions Portfolio</h2>
         </div>
     </div>   
   )
