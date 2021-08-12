@@ -2,8 +2,6 @@ import './App.css';
 // import React, { useState } from 'react'
 import React from 'react'
 import Title from './Title'
-// import ReactDOM from 'react-dom'
-import { BrowserRouter as Router } from 'react-router-dom';
 
 // Carousel
 import ImageGallery from 'react-image-gallery';
@@ -13,15 +11,11 @@ import images from './images'
 // Timeline
 import { Chrono } from 'react-chrono';
 import events from './events'
-import reactDom from 'react-dom';
 
-reactDom.render(<Router basename={process.env.PUBLIC_URL}><App/>
-  </Router>, document.getElementById('root'));
 
 function App() {
   return (
     <div className="App">
-      <Router exact path={'/'} render={ (routerProps) => <App routerProps={routerProps} seUpGame={this.setUpGame} />} />
       {/* Logo and title as website header */}
       <Title/>      
       <body className="App-header">
